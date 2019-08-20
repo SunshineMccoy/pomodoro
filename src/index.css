@@ -1,0 +1,31 @@
+* {
+  background-color: #f0Ac90;
+  color: #7852eb;
+  font-size: 35px;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  width: 800px;
+  border: solid;
+  height: 700px;
+}
+.box {
+  border: solid;
+  margin: 10px; 
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#time {
+  grid-column: 1/3
+}
+
